@@ -5,7 +5,7 @@ class ShopDetailPage extends StatelessWidget {
   final String description;
   final List<String> products;
 
-  ShopDetailPage({
+  const ShopDetailPage({super.key,
     required this.shopName,
     required this.description,
     required this.products,

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class ShopOwnerHomeScreen extends StatelessWidget {
+  const ShopOwnerHomeScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -23,8 +25,7 @@ class ShopOwnerHomeScreen extends StatelessWidget {
             const SizedBox(height: 16.0),
             ElevatedButton(
               onPressed: () {
-                // Navigate to the screen for managing products
-                // Replace the push code with your own navigation logic
+
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => ManageProductsScreen()),
@@ -35,8 +36,7 @@ class ShopOwnerHomeScreen extends StatelessWidget {
             const SizedBox(height: 16.0),
             ElevatedButton(
               onPressed: () {
-                // Navigate to the screen for viewing sales reports
-                // Replace the push code with your own navigation logic
+
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => SalesReportsScreen()),

@@ -7,14 +7,16 @@ class ShopOwnerRegistrationScreen extends StatelessWidget {
   final TextEditingController emailController = TextEditingController();
   final TextEditingController passwordController = TextEditingController();
 
+  ShopOwnerRegistrationScreen({super.key});
+
   void _submitForm() {
-    // Implement registration logic here
+
     String name = nameController.text;
     String email = emailController.text;
     String password = passwordController.text;
 
     // TODO: Perform registration logic (e.g., validate inputs, make API call, etc.)
-    // For now, print the entered data
+
     print('Name: $name');
     print('Email: $email');
     print('Password: $password');
