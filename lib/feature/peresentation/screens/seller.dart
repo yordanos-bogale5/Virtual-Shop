@@ -64,3 +64,9 @@ class ThisProduct {
 
   ThisProduct({required this.name, required this.price});
 }
+class QueryProduct {
+  final String name;
+  final double price;
+
+QueryProduct({required this.name, required this.price});
+}
