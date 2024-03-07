@@ -43,5 +43,12 @@ class MyProduct {
   final String Myname;
   final double Myprice;
 
-  Product({required this.name, required this.price});
+  MyProduct({required this.name, required this.price});
+}
+
+class ForProduct {
+  final String name;
+  final double price;
+
+  ForProduct({required this.name, required this.price});
 }
