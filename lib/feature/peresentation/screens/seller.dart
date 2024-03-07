@@ -82,3 +82,9 @@ class ColumnProduct {
 
   ColumnProduct({required this.name, required this.price});
 }
+class TableProduct {
+  final String name;
+  final double price;
+
+  TableProduct({required this.name, required this.price});
+}
