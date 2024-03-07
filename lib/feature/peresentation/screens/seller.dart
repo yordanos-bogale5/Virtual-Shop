@@ -70,3 +70,9 @@ class QueryProduct {
 
 QueryProduct({required this.name, required this.price});
 }
+class RowProduct {
+  final String name;
+  final double price;
+
+  RowProduct({required this.name, required this.price});
+}
