@@ -33,15 +33,15 @@ class Product {
 }
 
 class NewProduct {
-  final String father name;
-  final double item price;
+  final String name;
+  final double  price;
 
   NewProduct({required this.name, required this.price});
 }
 
 class MyProduct {
-  final String Myname;
-  final double Myprice;
+  final String name;
+  final double price;
 
   MyProduct({required this.name, required this.price});
 }
