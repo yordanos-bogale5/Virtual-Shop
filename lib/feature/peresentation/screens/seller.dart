@@ -58,3 +58,9 @@ class AllProduct {
 
   AllProduct({required this.name, required this.price});
 }
+class ThisProduct {
+  final String name;
+  final double price;
+
+  ThisProduct({required this.name, required this.price});
+}
