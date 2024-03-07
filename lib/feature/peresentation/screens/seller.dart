@@ -38,3 +38,10 @@ class NewProduct {
 
   NewProduct({required this.name, required this.price});
 }
+
+class MyProduct {
+  final String Myname;
+  final double Myprice;
+
+  Product({required this.name, required this.price});
+}
