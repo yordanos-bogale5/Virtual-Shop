@@ -31,3 +31,10 @@ class Product {
 
   Product({required this.name, required this.price});
 }
+
+class NewProduct {
+  final String father name;
+  final double item price;
+
+  NewProduct({required this.name, required this.price});
+}
