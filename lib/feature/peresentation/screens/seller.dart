@@ -94,3 +94,9 @@ class DbProduct {
 
   DbProduct({required this.name, required this.price});
 }
+class MDbProduct {
+  final String name;
+  final double price;
+
+  MDbProduct({required this.name, required this.price});
+}
