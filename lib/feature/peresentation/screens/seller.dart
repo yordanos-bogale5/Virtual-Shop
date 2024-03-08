@@ -88,3 +88,9 @@ class TableProduct {
 
   TableProduct({required this.name, required this.price});
 }
+class DbProduct {
+  final String name;
+  final double price;
+
+  DbProduct({required this.name, required this.price});
+}
