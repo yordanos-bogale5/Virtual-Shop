@@ -100,3 +100,9 @@ class MDbProduct {
 
   MDbProduct({required this.name, required this.price});
 }
+class PGDbProduct {
+  final String name;
+  final double price;
+
+  PGDbProduct({required this.name, required this.price});
+}
